@@ -1,6 +1,6 @@
 ## **Agricultural Moblie App**
 
-This Android app provides a visually appealing user interface designed for farmers, enabling them to manage their activities efficiently. The app includes personalized profiles, market updates, weather forecasts, and report analysis, ensuring a seamless user experience. This project uses Android Studio and XML to highlight modern UI/UX principles and best practices in mobile app development.
+This Android app provides a visually appealing user interface designed for farmers, enabling them to manage their activities efficiently. The app includes personalized profiles, market updates, weather forecasts, and report analysis, ensuring a seamless user experience. This project uses Android Studio and XML to highlight best practices in mobile app development.
 
 ![Untitled 4](https://github.com/user-attachments/assets/9225e15c-aa16-4045-9440-aba025ab8757)
 
