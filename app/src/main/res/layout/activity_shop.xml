@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shop">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="410dp"
+            android:layout_height="590dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView28"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk2" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView21"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/npk_15_15_rs_700"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button12"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:gravity="center"
+                            android:text="@string/shop_now"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView23"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk4" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/amor_20_20_rs_1000"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button11"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:text="@string/shop_now1"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView22"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk5" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/urea_rs_350"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button10"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:text="@string/shop_now2"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView21"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk6" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/compost_rs_400"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button9"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:text="@string/shop_now3"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk3" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/oligro_rs_1200"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button8"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:text="@string/shop_now4"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="410dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/npk1" />
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="168dp"
+                            android:layout_height="124dp"
+                            android:fontFamily="@font/baloo_bhai"
+                            android:gravity="center"
+                            android:text="@string/npk_15_10_rs_1400"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+
+                        <Button
+                            android:id="@+id/button7"
+                            android:layout_width="120dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/darkyellow"
+                            android:text="@string/shop_now5"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:translationX="40dp" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="420dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="720dp"
+            android:background="@color/black"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="420dp"
+                android:layout_height="163dp"
+                android:gravity="center"
+                android:text="@string/marketplace"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="48sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="410dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="710dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/homenav" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/menunav" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/profilenav" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/settingnav" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
