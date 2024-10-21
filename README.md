@@ -15,7 +15,6 @@ This Android app provides a visually appealing user interface designed for farme
 - **Bottom Navigation Bar**: Easy navigation between app sections.
 
 ---
-![Agrofarm](https://github.com/user-attachments/assets/12b6031a-56a1-4f67-a37d-ed0ec71eeab1)
 
 ### **Tech Stack**
 - **Android Studio**: IDE used for development.
