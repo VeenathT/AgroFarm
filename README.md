@@ -1,7 +1,5 @@
 ## **Agricultural App UI Design**
 
-![Screenshot 2024-10-21 103351](https://github.com/user-attachments/assets/91e54a6f-48e9-4160-a7aa-f3535ddfe71e)
-
 This Android app provides a visually appealing user interface designed for farmers, enabling them to manage their activities efficiently. The app includes features such as personalized profiles, market updates, weather forecasts, and report analysis, ensuring a seamless user experience. Built using Android Studio and XML, this project highlights modern UI/UX principles and best practices in mobile app development.
 
 ---
@@ -17,6 +15,7 @@ This Android app provides a visually appealing user interface designed for farme
 - **Bottom Navigation Bar**: Easy navigation between app sections.
 
 ---
+![Agrofarm](https://github.com/user-attachments/assets/12b6031a-56a1-4f67-a37d-ed0ec71eeab1)
 
 ### **Tech Stack**
 - **Android Studio**: IDE used for development.
